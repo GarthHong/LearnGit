@@ -1,6 +1,13 @@
-#! /usr/bin/python3
+import pickle
 
-print("update_file_1")
-print("3rd commit changes")
-print("4th commit changes")
-print("5th commit changes")
+with open('james.p', 'rb') as file:
+    name = pickle.load(file)
+    age = pickle.load(file)
+    address = pickle.load(file)
+    scores = pickle.load(file)
+
+print(name)
+print(age)
+print(address)
+print(scores)
+# name, age, address, scores
