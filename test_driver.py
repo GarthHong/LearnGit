@@ -4,6 +4,9 @@ from unittest.mock import Mock, MagicMock, patch
 from driver import Ainter, Adriver, Binter
 
 
+# a
+
+
 class TestAinter(TestCase):
     # 아직 구현이 안 된 모듈을 Mock으로 정의한다.
     def test_func1_inter_driver2(self):
